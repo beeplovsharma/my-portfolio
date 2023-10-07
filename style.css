@@ -98,7 +98,7 @@ a{
 #p1-tagline>h1{
     font-size: 6rem;
     white-space: nowrap;
-    font-family: gilroy;
+    font-family: gilroy-b;
     font-weight: 100;
 }
 
@@ -135,7 +135,7 @@ a{
     transform: translate(0,-50%); */
 }
 #text-2 h1{
-    font-family: gilroy;
+    font-family: gilroy-b;
     font-size: 100px;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
@@ -151,7 +151,7 @@ a{
 
 }
 #text-3 h1{
-    font-family: gilroy;
+    font-family: gilroy-b;
     font-size: 100px;
 }
 
@@ -457,8 +457,10 @@ a{
         top: 55%;
         transform: translate(0,-50%);
     }
+    
     #about-me>h3{
         font-size: 20px;
+        max-width: 100%;
     }
 
     #p5-content h1{
